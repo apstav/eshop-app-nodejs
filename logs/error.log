@@ -1,0 +1,12 @@
+{
+  message: 'error in reading users',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: '22-03-2023 18:40:20'
+}
+{
+  message: 'error in reading users',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: '22-03-2023 18:51:51'
+}
