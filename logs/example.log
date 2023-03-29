@@ -502,3 +502,51 @@
   label: 'winston custom format',
   timestamp: '29-03-2023 20:50:24'
 }
+{
+  message: 'Success in reading all -users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '29-03-2023 20:54:19'
+}
+{
+  message: 'warn in reading all users',
+  level: 'warn',
+  label: 'winston custom format',
+  timestamp: '29-03-2023 20:54:19'
+}
+{
+  message: 'error in reading users',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: '29-03-2023 20:54:19'
+}
+{
+  message: 'debug in reading users',
+  level: 'debug',
+  label: 'winston custom format',
+  timestamp: '29-03-2023 20:54:19'
+}
+{
+  message: 'Success in reading all -users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '29-03-2023 20:54:23'
+}
+{
+  message: 'warn in reading all users',
+  level: 'warn',
+  label: 'winston custom format',
+  timestamp: '29-03-2023 20:54:23'
+}
+{
+  message: 'error in reading users',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: '29-03-2023 20:54:23'
+}
+{
+  message: 'debug in reading users',
+  level: 'debug',
+  label: 'winston custom format',
+  timestamp: '29-03-2023 20:54:23'
+}
