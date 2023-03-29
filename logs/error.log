@@ -112,3 +112,15 @@
   label: 'winston custom format',
   timestamp: '29-03-2023 20:48:14'
 }
+{
+  message: 'error in reading users',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: '29-03-2023 20:48:27'
+}
+{
+  message: 'error in reading users',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: '29-03-2023 20:50:24'
+}
