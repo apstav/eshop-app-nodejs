@@ -12,6 +12,15 @@ require("dotenv").config({ path: ".env" });
 
 const swaggerUi = require("swagger-ui-express");
 const swaggerDocument = require("./swagger");
+const cors = require("cors");
+
+app.use(
+  cors({
+    origin: "*",
+    // origin: ['http://www.section.io', 'https://www.google.com']
+  })
+);
+app.use("/", express.static("files"));
 
 mongoose.set("strictQuery", false);
 
