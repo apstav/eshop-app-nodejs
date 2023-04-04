@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $.ajax({
-    url: "http://localhost:3000/api/user/findall",
+    url: "http://localhost:3000/api/user/findAll",
     type: "get",
     dataType: "JSON",
   }).done(function (response) {

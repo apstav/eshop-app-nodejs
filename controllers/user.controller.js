@@ -9,13 +9,13 @@ exports.findAll = function (req, res) {
     if (err) {
       res.status(400).json({ status: false, data: err });
       console.log("Problem in reading Users", err);
-    } else {
-      res.status(200).json({ status: true, data: results });
-      console.log("Success in reading Users");
-      logger.info("Success in reading all -users");
       logger.warn("warn in reading all users");
       logger.error("error in reading users");
       logger.debug("debug in reading users");
+    } else {
+      res.status(200).json({ status: true, data: results });
+      console.log("Success in reading Users");
+      logger.info("Success in reading all users");
     }
   });
 };
@@ -28,9 +28,11 @@ exports.findOne = function (req, res) {
     if (err) {
       res.status(400).json({ status: false, data: err });
       console.log(`Problem in finding user with username:${username}`);
+      logger.error(`error in finding user with username:${username}`);
     } else {
       res.status(200).json({ status: true, data: results });
       console.log("Success in finding user");
+      logger.info("Success in reading user");
     }
   });
 };
@@ -53,9 +55,11 @@ exports.create = function (req, res) {
     if (err) {
       res.status(400).json({ status: false, data: err });
       console.log(`Problem in creating user`, err);
+      logger.error("error in creating user");
     } else {
       res.status(200).json({ status: true, data: result });
       console.log("Success in creating user");
+      logger.info("Success in creating user");
     }
   });
 };
@@ -80,9 +84,11 @@ exports.update = function (req, res) {
       if (err) {
         res.status(400).json({ status: false, data: err });
         console.log(`Problem in updating user`, err);
+        logger.error("error in updting user");
       } else {
         res.status(200).json({ status: true, data: result });
         console.log("Success in updating user");
+        logger.info("Success in updating user");
       }
     }
   );
@@ -97,9 +103,11 @@ exports.delete = function (req, res) {
     if (err) {
       res.status(400).json({ status: false, data: err });
       console.log(`Problem in deleting user`, err);
+      logger.error("error in deleting user");
     } else {
       res.status(200).json({ status: true, data: result });
       console.log("Success in deleting user");
+      logger.info("Success in deleting user");
     }
   });
 };
