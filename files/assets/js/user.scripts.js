@@ -39,7 +39,7 @@ $(document).ready(function () {
         },
       };
 
-      // console.log($('.btnSubmit').val(), item);
+      //console.log($(".btnSubmit").val(), item);
       $.ajax({
         url: "http://localhost:3000/api/user/create",
         type: "post",

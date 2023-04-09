@@ -30,8 +30,8 @@
                             Users
                         </a>
                         <ul class="dropdown-menu" arial-labeledby="navbarDropdownMenuLink1">
-                            <li><a class="dropdown-item" href="../user/create.html">Create</a></li>
-                            <li><a class="dropdown-item" href="../user/find.html">Search</a></li>
+                            <li><a class="dropdown-item" href="./create.html">Create</a></li>
+                            <li><a class="dropdown-item" href="./find.html">Search</a></li>
                         </ul>
                     </li>
 
@@ -41,8 +41,8 @@
                             Products
                         </a>
                         <ul class="dropdown-menu" arial-labeledby="navbarDropdownMenuLink2">
-                            <li><a class="dropdown-item" href="./create.html">Create</a></li>
-                            <li><a class="dropdown-item" href="./find.html">Search</a></li>
+                            <li><a class="dropdown-item" href="../product/create.html">Create</a></li>
+                            <li><a class="dropdown-item" href="../product/find.html">Search</a></li>
                         </ul>
                     </li>
 
@@ -57,7 +57,42 @@
             </div>
         </div>
     </nav>
-    Create Product
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <h2>Products</h2>
+
+            <div class="alert" role="alert"></div>
+
+            <form id="frmUser">
+                <div class="mb-3">
+                    <label for="product" class="form-label">Product</label>
+                    <input type="text" class="form-control" name="product" id="product" aria-describedby="productHelp">
+                    <div id="productHelp" class="form-text">Type a Product</div>
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label">Product Description</label>
+                    <input type="text" class="form-control" name="description" id="description">
+                </div>
+                <div class="mb-3">
+                    <label for="quantity" class="form-label">Quantity</label>
+                    <input type="number" class="form-control" name="quantity" id="quantity">
+                </div>
+                <div class="mb-3">
+                    <label for="price" class="form-label">Price</label>
+                    <input type="number" class="form-control" name="price" id="price">
+                </div>
+            </form>
+
+            <div class="row">
+                <div class="col text-center">
+                    <button class="btnSubmit btn btn-primary text-center" value="insert">Submit</button>
+                    <button class="btnReset btn btn-primary text-center">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
 
 
@@ -67,6 +102,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
+    <script src="../assets/js/user.scripts.js"></script>
 </body>
 
 </html>

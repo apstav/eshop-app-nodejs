@@ -70,13 +70,13 @@ $(document).ready(function () {
         product +
         "</td>" +
         "<td>" +
-        cost +
-        "</td>" +
-        "<td>" +
         description +
         "</td>" +
         "<td>" +
         quantity +
+        "</td>" +
+        "<td>" +
+        cost +
         "</td>" +
         "<td>" +
         "<button class='btnUpdate btn btn-primary' value='" +
