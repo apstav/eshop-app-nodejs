@@ -28,15 +28,15 @@ $(document).ready(function () {
       let road = $("#road").val();
 
       const item = {
-        username: username,
-        password: password,
-        name: name,
-        surname: surname,
-        email: email,
-        address: {
-          area: area,
-          road: road,
-        },
+        'username': username,
+        'password': password,
+        'name': name,
+        'surname': surname,
+        'email': email,
+        'address': {
+          'area': area,
+          'road': road
+        }
       };
 
       //console.log($(".btnSubmit").val(), item);

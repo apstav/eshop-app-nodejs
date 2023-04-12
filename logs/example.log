@@ -784,3 +784,51 @@
   label: 'winston custom format',
   timestamp: '09-04-2023 19:27:42'
 }
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '12-04-2023 19:03:16'
+}
+{
+  message: 'Success in reading all Products',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '12-04-2023 19:03:26'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '12-04-2023 19:06:58'
+}
+{
+  message: 'Success in creating user',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '12-04-2023 19:07:55'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '12-04-2023 19:11:38'
+}
+{
+  message: 'error in creating user',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: '12-04-2023 19:11:46'
+}
+{
+  message: 'error in creating user',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: '12-04-2023 19:11:46'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '12-04-2023 19:12:53'
+}
