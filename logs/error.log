@@ -154,3 +154,21 @@
   label: 'winston custom format',
   timestamp: '12-04-2023 19:11:46'
 }
+{
+  message: 'error in creating user',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: '12-04-2023 20:00:50'
+}
+{
+  message: 'error in creating user',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: '12-04-2023 20:02:04'
+}
+{
+  message: 'error in creating user',
+  level: 'error',
+  label: 'winston custom format',
+  timestamp: '12-04-2023 20:03:14'
+}

@@ -16,9 +16,7 @@ $(document).ready(function () {
     }
   });
 
-  $(".row")
-    .off("click", ".btnSubmit")
-    .on("click", ".btnSubmit", function () {
+  $('.row').off('click', '.btnSubmit').on('click', '.btnSubmit', function () {
       let username = $("#username").val();
       let password = $("#password").val();
       let name = $("#name").val();
@@ -37,7 +35,7 @@ $(document).ready(function () {
           'area': area,
           'road': road
         }
-      };
+      }
 
       //console.log($(".btnSubmit").val(), item);
       $.ajax({
