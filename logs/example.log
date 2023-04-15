@@ -994,3 +994,81 @@
   label: 'winston custom format',
   timestamp: '12-04-2023 20:23:43'
 }
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '15-04-2023 19:13:50'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '15-04-2023 19:13:53'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '15-04-2023 19:14:01'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '15-04-2023 19:14:04'
+}
+{
+  message: 'Success in reading all Products',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '15-04-2023 19:14:12'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '15-04-2023 19:14:20'
+}
+{
+  message: 'Success in reading all Products',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '15-04-2023 19:14:31'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '15-04-2023 19:14:33'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '15-04-2023 19:14:36'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '15-04-2023 20:04:48'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '15-04-2023 20:04:50'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '15-04-2023 20:05:45'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '15-04-2023 20:05:47'
+}
