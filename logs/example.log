@@ -1072,3 +1072,99 @@
   label: 'winston custom format',
   timestamp: '15-04-2023 20:05:47'
 }
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 17:34:35'
+}
+{
+  message: 'Success in reading user',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 17:34:48'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 20:30:33'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 20:30:35'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 20:30:39'
+}
+{
+  message: 'Success in reading all Products',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 20:30:43'
+}
+{
+  message: 'Success in reading all Products',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 20:30:59'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 20:31:03'
+}
+{
+  message: 'Success in creating user',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 20:31:35'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 20:31:41'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 20:31:53'
+}
+{
+  message: 'Success in reading all Products',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 20:31:58'
+}
+{
+  message: 'Success in reading all Products',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 20:32:13'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 20:57:04'
+}
+{
+  message: 'Success in creating product',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 21:00:20'
+}
+{
+  message: 'Success in reading all Products',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '18-04-2023 21:00:39'
+}
