@@ -12,7 +12,6 @@ $(document).ready(function () {
       createTbody(data);
     } else {
       alert(false, "Error in users search (" + data.message + ")");
-      // console.log(data);
     }
   });
 
