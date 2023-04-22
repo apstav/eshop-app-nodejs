@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $.ajax({
-    url: "http://localhost:3000/api/user/findAll",
+    url: "http://localhost:3000/api/user/findall",
     type: "get",
     dataType: "JSON",
   }).done(function (response) {
@@ -12,10 +12,13 @@ $(document).ready(function () {
       createTbody(data);
     } else {
       alert(false, "Error in users search (" + data.message + ")");
+      // console.log(data);
     }
   });
 
-  $('.row').off('click', '.btnSubmit').on('click', '.btnSubmit', function () {
+  $(".row")
+    .off("click", ".btnSubmit")
+    .on("click", ".btnSubmit", function () {
       let username = $("#username").val();
       let password = $("#password").val();
       let name = $("#name").val();
@@ -25,20 +28,20 @@ $(document).ready(function () {
       let road = $("#road").val();
 
       const item = {
-        'username': username,
-        'password': password,
-        'name': name,
-        'surname': surname,
-        'email': email,
-        'address': {
-          'area': area,
-          'road': road
-        }
-      }
+        username: username,
+        password: password,
+        name: name,
+        surname: surname,
+        email: email,
+        address: {
+          area: area,
+          road: road,
+        },
+      };
 
-      //console.log($(".btnSubmit").val(), item);
+      // console.log($('.btnSubmit').val(), item);
       $.ajax({
-        url: "http://localhost:3000/api/product/create",
+        url: "http://localhost:3000/api/user/create",
         type: "post",
         data: item,
         dataType: "JSON",
