@@ -21,11 +21,7 @@ It is a great starting point for eshop platform.
 ```
 npm install
 ```
-2. Build your api
-```
-npm run build
-```
-3. Start your api
+2. Start your api
 ```
 npm run dev
 ```
