@@ -1288,3 +1288,39 @@
   label: 'winston custom format',
   timestamp: '18-04-2023 21:12:16'
 }
+{
+  message: 'Success in reading all Products',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '23-04-2023 16:48:06'
+}
+{
+  message: 'Success in reading all Products',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '23-04-2023 16:48:06'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '23-04-2023 16:48:13'
+}
+{
+  message: 'Success in reading all users',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '23-04-2023 16:48:31'
+}
+{
+  message: 'Success in reading all Products',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '23-04-2023 16:48:32'
+}
+{
+  message: 'Success in reading all Products',
+  level: 'info',
+  label: 'winston custom format',
+  timestamp: '23-04-2023 16:48:34'
+}
