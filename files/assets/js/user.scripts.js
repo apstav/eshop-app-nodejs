@@ -45,6 +45,7 @@ $(document).ready(function () {
         type: "post",
         data: item,
         dataType: "JSON",
+        
         // encode: true,
       }).done(function (response) {
         // console.log(">>", response);
